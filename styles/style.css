@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('header.css');
+
+:root{
+    --cor-primaria: #FFFFFF;
+    --cor-texto-primaria: #3A404E;
+    --cor-texto-secundaria: #667085;
+    --cor-botao: #8E2424;
+    --fonte-primaria: 'Inter', sans-serif;
+}
