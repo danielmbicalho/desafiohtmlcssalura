@@ -5,6 +5,37 @@
     --cor-primaria: #FFFFFF;
     --cor-texto-primaria: #3A404E;
     --cor-texto-secundaria: #667085;
-    --cor-botao: #8E2424;
+    --cor-secundaria: #8E2424;
     --fonte-primaria: 'Inter', sans-serif;
+}
+
+.sobre-nos {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    flex-direction: column;
+}
+
+.sobre-nos__identificacao {
+    color: var(--cor-secundaria);
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    margin-top: 96px;
+}
+.sobre-nos__titulo {
+    color: var(--cor-texto-primaria);
+    display: block;
+    font-size: 48px;
+    margin: 24px 0;
+}
+
+.sobre-nos__texto {
+    color: var(--cor-texto-secundaria);
+    font-size: 20px;
+    display: block;
+    margin: 0 25vw;
+    
 }

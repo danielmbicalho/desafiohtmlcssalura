@@ -3,6 +3,7 @@
     font-family: var(--fonte-primaria);
     display: flex;
     justify-content: space-around;
+    margin: 18px 80px;
 }
 
 .cabecalho__logo__link{
@@ -38,6 +39,6 @@
     text-decoration: none;
     padding: 10px 18px;
     border-radius: 8px;
-    background-color: var(--cor-botao);
+    background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
 }
