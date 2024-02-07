@@ -5,6 +5,7 @@
     --cor-primaria: #FFFFFF;
     --cor-texto-primaria: #3A404E;
     --cor-texto-secundaria: #667085;
+    --cor-texto-terciaria: #101828;
     --cor-secundaria: #8E2424;
     --fonte-primaria: 'Inter', sans-serif;
 }
@@ -16,6 +17,7 @@
     text-align: center;
     font-family: var(--fonte-primaria);
     flex-direction: column;
+    margin: 96px 0;
 }
 
 .sobre-nos__identificacao {
@@ -23,7 +25,6 @@
     font-weight: bold;
     display: block;
     font-size: 16px;
-    margin-top: 96px;
 }
 .sobre-nos__titulo {
     color: var(--cor-texto-primaria);
@@ -38,4 +39,38 @@
     display: block;
     margin: 0 25vw;
     
+}
+
+.metricas {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    margin: 0 80px 96px 80px;
+    padding: 0 32px;
+}
+
+.container-metricas{
+    margin: 0 16px;
+
+}
+
+.container-metricas__titulo{
+    font-size: 60px;
+    color: var(--cor-secundaria);
+    margin-bottom: 12px;
+}
+
+.container-metricas__subtitulo {
+    font-size: 18px;
+    color: var(--cor-texto-terciaria);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.container-metricas__texto{
+    font-size: 16px;
+    color: var(--cor-texto-secundaria);
+
 }
