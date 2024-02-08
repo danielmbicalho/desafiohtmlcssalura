@@ -79,11 +79,9 @@
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: space-around;
-    text-align: center;
     font-family: var(--fonte-primaria);
     flex-direction: column;    
     margin: 6rem 5rem;
-    text-align: center;
 }
 
 .vagas__cabecalho {
@@ -106,4 +104,36 @@
 
 .vagas__texto {
     color: var(--cor-texto-secundaria);
+}
+
+.vaga__container{
+    margin: 0 auto;
+}
+
+.vaga__tipo {
+    color: var(--cor-texto-terciaria);
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.vaga__descricao {
+    margin: 1rem auto;
+    border: #EAECF0 solid 1px;
+    border-radius: 8px;
+    display: block;
+    padding: 1.5rem;
+    width: 40vw;
+}
+
+.vaga__titulo {
+    color: var(--cor-texto-terciaria);
+    font-size: 18px;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.vaga__informacoes {
+    color: var(--cor-texto-secundaria);
+    font-size: 16px;
+    display: inline;
 }
