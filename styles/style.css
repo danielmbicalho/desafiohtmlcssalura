@@ -8,6 +8,10 @@
     --cor-texto-terciaria: #101828;
     --cor-secundaria: #8E2424;
     --fonte-primaria: 'Inter', sans-serif;
+    --cor-terciaria: #8E242410;
+}
+* {
+    font-family: var(--fonte-primaria);
 }
 
 .sobre-nos {
@@ -15,12 +19,12 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    font-family: var(--fonte-primaria);
     flex-direction: column;
     margin: 6rem 0;
 }
 
-.sobre-nos__identificacao {
+.sobre-nos__identificacao, 
+.depoimentos__identificacao {
     color: var(--cor-secundaria);
     font-weight: bold;
     display: block;
@@ -46,7 +50,6 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    font-family: var(--fonte-primaria);
     margin: 0 5rem 6rem 5rem;
     padding: 0 2rem;
 }
@@ -79,7 +82,6 @@
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: space-around;
-    font-family: var(--fonte-primaria);
     flex-direction: column;    
     margin: 6rem 5rem;
 }
@@ -96,7 +98,7 @@
 .vagas__identificacao{
     color: var(--cor-secundaria);
     font-size: 14px;
-    background-color: #8E242410;
+    background-color: var(--cor-terciaria) ;
     border-radius: 8px;
     width: 125px;
     display: inline-block;
@@ -136,4 +138,26 @@
     color: var(--cor-texto-secundaria);
     font-size: 16px;
     display: inline;
+}
+
+.depoimentos {
+    background-color: var(--cor-terciaria);
+    margin: 6rem 5rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.depoimentos__texto{
+    font-size: 36px;
+    color: var(--cor-texto-terciaria);
+}
+
+.depoimentos__nome {
+    color: var(--cor-texto-terciaria);
+    font-size: 16px;
+}
+
+.depoimentos__cargo {
+    color: var(--cor-texto-secundaria);
+    font-size: 14px;
 }
