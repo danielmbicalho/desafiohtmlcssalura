@@ -35,10 +35,3 @@
     color: var(--cor-texto-secundaria);
     padding: 10px 18px;
 }
-#cabecalho__acesso__botao{
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
-}
