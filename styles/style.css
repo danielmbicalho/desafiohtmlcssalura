@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('header.css');
 
-:root{
+:root {
     --cor-primaria: #FFFFFF;
     --cor-texto-primaria: #3A404E;
     --cor-texto-secundaria: #667085;
@@ -11,10 +11,12 @@
     --cor-terciaria: #8E242410;
     --cor-borda: #EAECF0;
 }
+
 * {
     font-family: var(--fonte-primaria);
 }
-.cadastro__botao{
+
+.cadastro__botao {
     height: 48px;
     text-decoration: none;
     padding: 10px 18px;
@@ -33,13 +35,14 @@
     margin: 6rem 0;
 }
 
-.sobre-nos__identificacao, 
+.sobre-nos__identificacao,
 .depoimentos__identificacao {
     color: var(--cor-secundaria);
     font-weight: bold;
     display: block;
     font-size: 1rem;
 }
+
 .sobre-nos__titulo {
     color: var(--cor-texto-primaria);
     display: block;
@@ -52,7 +55,7 @@
     font-size: 20px;
     display: block;
     margin: 0 25vw;
-    
+
 }
 
 .metricas {
@@ -64,12 +67,12 @@
     padding: 0 2rem;
 }
 
-.container-metricas{
+.container-metricas {
     margin: 0 1rem;
 
 }
 
-.container-metricas__titulo{
+.container-metricas__titulo {
     font-size: 60px;
     color: var(--cor-secundaria);
     margin-bottom: 0.75rem;
@@ -82,17 +85,17 @@
     font-weight: 500;
 }
 
-.container-metricas__texto{
+.container-metricas__texto {
     font-size: 16px;
     color: var(--cor-texto-secundaria);
 
 }
 
-.vagas{
+.vagas {
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: space-around;
-    flex-direction: column;    
+    flex-direction: column;
     margin: 6rem 5rem;
 }
 
@@ -101,14 +104,15 @@
     margin-bottom: 4rem;
 
 }
+
 .vagas__titulo {
     font-size: 36px;
 }
 
-.vagas__identificacao{
+.vagas__identificacao {
     color: var(--cor-secundaria);
     font-size: 14px;
-    background-color: var(--cor-terciaria) ;
+    background-color: var(--cor-terciaria);
     border-radius: 8px;
     width: 125px;
     display: inline-block;
@@ -118,7 +122,7 @@
     color: var(--cor-texto-secundaria);
 }
 
-.vaga__container{
+.vaga__container {
     margin: 0 auto;
 }
 
@@ -157,7 +161,7 @@
     padding: 4rem;
 }
 
-.depoimentos__texto{
+.depoimentos__texto {
     font-size: 36px;
     color: var(--cor-texto-terciaria);
 }
@@ -177,25 +181,25 @@
     text-align: center;
 }
 
-.rodape__titulo{
+.rodape__titulo {
     font-size: 36px;
     color: var(--cor-texto-terciaria);
 }
 
-.rodape__subtitulo{
+.rodape__subtitulo {
     font-size: 20px;
     color: var(--cor-texto-secundaria);
     font-weight: 400;
 }
 
-.rodape__entrada-email{
+.rodape__entrada-email {
     width: 360px;
     height: 46px;
     border: var(--cor-borda) solid 1px;
     border-radius: 8px;
 }
 
-.rodape__entrada-email::placeholder{
+.rodape__entrada-email::placeholder {
     font-size: 16px;
     color: var(--cor-texto-secundaria);
 }
